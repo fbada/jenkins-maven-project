@@ -1,7 +1,9 @@
-# Ignore target directory (produced by Maven build)
-/target/
+# Ignore all .* files and directories
+.*
 
-# Ignore VS Code settings
-/.vscode/
+# Except .gitignore
+!.gitignore
 
-
+# Ignore specific metadata files (created by Eclipse)
+.classpath
+.project

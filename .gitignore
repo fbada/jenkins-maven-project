@@ -1,0 +1,7 @@
+# Ignore target directory (produced by Maven build)
+/target/
+
+# Ignore VS Code settings
+/.vscode/
+
+
